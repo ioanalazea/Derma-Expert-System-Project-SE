@@ -1,0 +1,13 @@
+.Question-container {
+  background-color: #f7ede2;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.Question-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  color: #f28482;
+}

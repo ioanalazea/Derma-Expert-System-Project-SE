@@ -1,0 +1,13 @@
+.Container-testPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5cac3;
+  flex-direction: column;
+}
+
+.Container-buttons {
+  display: inline-flex;
+  margin-top: 20px;
+}
