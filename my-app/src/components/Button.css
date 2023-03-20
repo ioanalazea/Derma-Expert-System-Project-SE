@@ -1,0 +1,12 @@
+.Button {
+  background-color: #f28482;
+  color: #f7ede2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 10px;
+  border-width: 0px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
