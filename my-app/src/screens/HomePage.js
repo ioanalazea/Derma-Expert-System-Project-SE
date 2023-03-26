@@ -17,7 +17,7 @@ function HomePage() {
           className="Image"
           style={{
             borderRadius: "50%",
-            height: "700px",
+            height: "600px",
           }}
         />
       </div>
