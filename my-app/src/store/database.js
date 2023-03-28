@@ -29,3 +29,19 @@ export async function getSymptoms() {
   }
   return symptoms;
 }
+
+
+export async function getRules() {
+  const response = await axios.get(URL_BACKEND + "/rules.json");
+  const rule = [];
+  for (const key in response.data) {
+    const ruleObj = {
+      id: key,
+      rules: response.data[key],
+    };
+
+    rule.push(ruleObj);
+  }
+
+  return rule;
+}

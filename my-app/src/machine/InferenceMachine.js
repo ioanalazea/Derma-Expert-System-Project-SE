@@ -1,6 +1,34 @@
+import { getRules } from "../store/database";
+
+export default async function InferenceMachine(response) {
+  const knowledgeBase = await getRules();
+  var match = "";
+  for (let i = 0; i < knowledgeBase.length; i++) {
+    const item = knowledgeBase[i];
+    var count = 0;
+    for (const [key, value] of Object.entries(item.rules)) {
+      var exists = 0;
+      for (let j = 0; j < response.length; j++) {
+        const r = response[j];
+        if (r.value === value && r.key === key) exists = 1;
+      }
+      if (exists === 1) count = count + 1;
+    }
+
+    if (count === Object.keys(item.rules).length) match = item.id;
+  }
+
+  return match;
+}
+
+   
 
 
-export default function InferenceMachine() {
+
+
+
+
+/*export default function InferenceMachine() {
 
     var result = ""
     if (response["G01"]){
@@ -75,3 +103,4 @@ export default function InferenceMachine() {
 
     return result;
 }
+*/
