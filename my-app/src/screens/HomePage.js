@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HomePageImage from "../utils/HomePageImage.jpg";
 import "./HomePage.css";
 import Button from "../components/Button";
