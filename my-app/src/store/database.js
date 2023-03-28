@@ -20,9 +20,20 @@ export async function getSymptoms() {
   const response = await axios.get(URL_BACKEND + "/symptoms.json");
   const symptoms = [];
   for (const key in response.data) {
+    const index = parseInt(
+      response.data[key].substring(0, response.data[key].indexOf(","))
+    );
+
+    const sympton = response.data[key].substring(
+      response.data[key].indexOf(",") + 1
+    );
+
+    console.log(sympton);
+
     const symptomObj = {
       id: key,
-      symptom: response.data[key],
+      index: index,
+      symptom: sympton,
     };
 
     symptoms.push(symptomObj);
