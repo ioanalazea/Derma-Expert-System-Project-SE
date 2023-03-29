@@ -1,0 +1,143 @@
+{
+  "disease": {
+    "P01": "Seborrheic Dermatitis",
+    "P02": "Vitiligo",
+    "P03": "Keloid",
+    "P04": "Tinea Corporis",
+    "P05": "Bullous Impetigo",
+    "P06": "Psoriazis",
+    "P07": "Seborrheic Keratosis",
+    "P08": "Dyshidrotic Eczema",
+    "P09": "Angioedema",
+    "P10 ": "Sebaceous cyst"
+  },
+  "rules": {
+    "P01": {
+      "G01": 1,
+      "G02": 1,
+      "G03": 1,
+      "G04": 1,
+      "G34": 1,
+      "G35": 1
+    },
+    "P02": {
+      "G01": 1,
+      "G02": 1,
+      "G03": 0,
+      "G15": 1,
+      "G16": 1,
+      "G40": 1
+    },
+    "P03": {
+      "G01": 1,
+      "G02": 0,
+      "G11": 1,
+      "G12": 1,
+      "G13": 1,
+      "G14": 1,
+      "G39": 1
+    },
+    "P04": {
+      "G01": 1,
+      "G02": 0,
+      "G08": 1,
+      "G09": 1,
+      "G10": 1,
+      "G11": 1,
+      "G12": 0,
+      "G38": 1
+    },
+    "P05": {
+      "G01": 0,
+      "G05": 1,
+      "G06": 1,
+      "G07": 1,
+      "G46": 1
+    },
+    "P06": {
+      "G01": 1,
+      "G02": 0,
+      "G11": 0,
+      "G17": 1,
+      "G18": 1,
+      "G41": 1
+    },
+    "P07": {
+      "G01": 1,
+      "G02": 0,
+      "G11": 0,
+      "G17": 1,
+      "G18": 0,
+      "G19": 1,
+      "G20": 1,
+      "G21": 1
+    },
+    "P08": {
+      "G01": 1,
+      "G02": 0,
+      "G11": 0,
+      "G17": 0,
+      "G24": 1,
+      "G25": 1,
+      "G43": 1
+    },
+    "P09": {
+      "G01": 1,
+      "G02": 0,
+      "G11": 0,
+      "G17": 0,
+      "G24": 0,
+      "G31": 1,
+      "G32": 1,
+      "G33": 1,
+      "G45": 1
+    },
+    "P10": {
+      "G01": 0,
+      "G05": 0,
+      "G26": 1,
+      "G27": 1,
+      "G28": 1
+    }
+  },
+  "symptoms": {
+    "G01": "1,an itchy rash",
+    "G02": "2,open sores or lesions",
+    "G03": "3,burning skin",
+    "G04": "4,exfoliation or dandruff on the mustache, beard and eyebrow area",
+    "G05": "5,bubbles on the skin with yellowish liquid",
+    "G06": "6,0.5 centi-meter bubble which quickly swells and pops easily",
+    "G07": "7,cracked skin such as blistered skin exposed to cigarette burns",
+    "G08": "8,a circular reddish or silvery rash",
+    "G09": "9,scaly skin",
+    "G10": "10,skin inflammation/dermatitis",
+    "G11": "11,easily irritated if exposed to rubbing",
+    "G12": "12,raised bumps or wrinkles",
+    "G13": "13,thickened areas of skin that form over a healed wound",
+    "G14": "14,pink or red areas with a shiny or smooth appearance",
+    "G15": "15,loss of skin color",
+    "G16": "16,hair whitening",
+    "G17": "17,redness",
+    "G18": "18,joint pain",
+    "G19": "19,plaque on the skin that is brown, black, or light tan in color",
+    "G20": "20,warty or scaly texture",
+    "G21": "21,bumps located on face,chest,back or scalp",
+    "G24": "22,breathing difficulties ",
+    "G25": "23,inflammatory skin on hands and feet",
+    "G26": "24,small, round bumps or lumps under the skin",
+    "G27": "25,bumps filled with a thick, oily and white substance",
+    "G28": "26,foul odor from the lumps",
+    "G31": "27,hives or rash",
+    "G32": "28,swelling of the deep layers of the skin",
+    "G33": "29,fatigue or weakness",
+    "G34": "30,greasy or oily appearance",
+    "G35": "31,hair loss",
+    "G38": "32,rashes with clear skin in the middle",
+    "G39": "33,an area that continuous grow larger",
+    "G40": "34,sensitivity to sunlight",
+    "G41": "35,irregular patches of skin with a slivery-white scale",
+    "G43": "36,symptoms recurring periodically",
+    "G45": "37,abdominal pain, nausea or vomiting",
+    "G46": "38,fever"
+  }
+}
