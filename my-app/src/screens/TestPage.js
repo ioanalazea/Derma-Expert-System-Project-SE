@@ -24,7 +24,9 @@ function TestPage() {
   const handleNextQuestion = (userInput) => {
     setResponse(oldArray => [...oldArray, {key:currentQuestion.id, value:userInput==="Yes"?1:0}])
     if (currentQuestion.id === "G46"){
-      console.log(InferenceMachine(response))
+      InferenceMachine(response).then((disease) =>
+      console.log(disease)
+      )
     }
     const nextIndex = currentQuestionIndex + 2;
     const nextQuestion = question.find(
